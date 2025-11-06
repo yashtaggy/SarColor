@@ -1,0 +1,92 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+*.tmp
+*.bak
+*.swp
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Datasets / Images / Outputs
+# =========================
+# Ignore all large data directories
+ColorSAR/images/
+ColorSAR/model_results/
+ColorSAR/original_model/
+ColorSAR/gray_model/
+ColorSAR/outputs/
+demo_outputs/
+dataset/
+data/
+v_2/
+*.zip
+*.tar
+*.tar.gz
+
+# =========================
+# Model files and checkpoints
+# =========================
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+
+# =========================
+# Logs and temp files
+# =========================
+logs/
+*.log
+*.out
+*.err
+nohup.out
+
+# =========================
+# IDE & Editor settings
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Notebook metadata caches
+# =========================
+*.nbconvert.ipynb
+*.nbconvert/
+
+# =========================
+# Kaggle / API keys / credentials
+# =========================
+kaggle.json
+*.key
+*.pem
+*.env
